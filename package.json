@@ -1,5 +1,5 @@
 {
-    "name": "backend MINSOFT",
+    "name": "minsoft",
     "version": "1.0.0",
     "description": "\"Stack mern\"",
     "main": "src/server.js",
