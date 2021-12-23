@@ -11,7 +11,7 @@ const extensions = ({context}) => {
     };
 };
 var corsOptions = {
-    origin: 'https://gracious-bhabha-046894.netlify.app/',
+    origin: '*',
     credentials: true 
   };
   app.use(cors(corsOptions));
