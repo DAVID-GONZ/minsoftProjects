@@ -46,8 +46,8 @@ const ProjectSchema = new Schema(
     projectPhase: {
       required: true,
       type: String,
-      default: "null",
-      enum: ["iniciado", "desarrollo", "terminado", "null"],
+      default: "",
+      enum: ["iniciado", "desarrollo", "terminado"],
     },
   },
   {
